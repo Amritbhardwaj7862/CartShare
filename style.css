@@ -1,0 +1,493 @@
+/* ================= GENERAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #222;
+}
+
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    padding: 15px 0;
+}
+
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+
+    background: linear-gradient(
+        135deg,
+        #0d6efd,
+        #6610f2
+    );
+
+    color: white;
+
+    padding: 100px 20px;
+
+    text-align: center;
+}
+
+
+.hero-section h1 {
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.hero-section p {
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+}
+
+
+
+/* ================= MAIN SECTION ================= */
+
+.main-section {
+
+    padding: 60px 20px;
+
+    min-height: 400px;
+}
+
+
+
+/* ================= SECTION CARD ================= */
+
+.section-card {
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    margin-bottom: 30px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.section-card h2 {
+
+    margin-bottom: 25px;
+}
+
+
+
+/* ================= ROOM ================= */
+
+.room-box {
+
+    background-color: #f8f9fa;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    margin: 20px 0;
+}
+
+
+.room-box h3 {
+
+    margin-bottom: 10px;
+}
+
+
+
+/* ================= ROOM RESULT ================= */
+
+.room-result {
+
+    text-align: center;
+
+    margin: 25px 0;
+}
+
+
+.room-result h3 {
+
+    color: #198754;
+}
+
+
+.room-code {
+
+    display: inline-block;
+
+    background-color: #212529;
+
+    color: white;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    letter-spacing: 5px;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    margin: 15px 0;
+}
+
+
+
+/* ================= CART HEADER ================= */
+
+.cart-header {
+
+    margin-bottom: 30px;
+}
+
+
+.cart-header h1 {
+
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+
+.cart-header p {
+
+    margin: 5px;
+}
+
+
+
+/* ================= CART ITEMS ================= */
+
+#cartItems {
+
+    margin-top: 20px;
+}
+
+
+.cart-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #f8f9fa;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+
+    border-left: 5px solid #0d6efd;
+}
+
+
+.item-info h4 {
+
+    margin-bottom: 5px;
+}
+
+
+.item-info p {
+
+    margin: 0;
+
+    color: #666;
+}
+
+
+.item-info small {
+
+    color: #777;
+}
+
+
+.item-price {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+
+.empty-cart {
+
+    text-align: center;
+
+    color: #777;
+
+    padding: 30px;
+}
+
+
+
+/* ================= TOTAL ================= */
+
+.total-card {
+
+    background-color: #212529;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    margin-top: 20px;
+}
+
+
+.total-card h2 {
+
+    margin: 0;
+}
+
+
+
+/* ================= PAYMENT STATUS ================= */
+
+.payment-status {
+
+    padding: 18px;
+
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+
+.payment-success {
+
+    background-color: #d1e7dd;
+
+    color: #0f5132;
+
+    border: 1px solid #badbcc;
+}
+
+
+.payment-error {
+
+    background-color: #f8d7da;
+
+    color: #842029;
+
+    border: 1px solid #f5c2c7;
+}
+
+
+
+/* ================= FEATURES ================= */
+
+.features-section {
+
+    padding: 70px 20px;
+
+    background-color: white;
+}
+
+
+.feature-card {
+
+    background-color: #f8f9fa;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    height: 100%;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+.feature-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 5px 15px
+        rgba(0, 0, 0, 0.1);
+}
+
+
+.feature-card h3 {
+
+    margin-bottom: 15px;
+}
+
+
+
+/* ================= FOOTER ================= */
+
+footer {
+
+    background-color: #212529;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+footer p {
+
+    margin: 0;
+}
+
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+
+        padding: 70px 20px;
+    }
+
+
+    .hero-section h1 {
+
+        font-size: 35px;
+    }
+
+
+    .hero-section p {
+
+        font-size: 17px;
+    }
+
+
+    .section-card {
+
+        padding: 20px;
+    }
+
+
+    .cart-item {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 15px;
+    }
+
+
+    .cart-header h1 {
+
+        font-size: 32px;
+    }
+
+
+    .room-code {
+
+        font-size: 24px;
+
+        padding: 12px 20px;
+    }
+
+
+    #payButton {
+
+        margin-top: 10px;
+
+        margin-left: 0 !important;
+
+        width: 100%;
+    }
+
+}
+
+
+
+/* ================= PRINT ================= */
+
+@media print {
+
+    body {
+
+        background-color: white;
+    }
+
+
+    .navbar,
+    .hero-section,
+    .features-section,
+    footer,
+    .btn,
+    #loginSection,
+    #roomSection,
+    .payment-status {
+
+        display: none !important;
+    }
+
+
+    .main-section {
+
+        padding: 0;
+    }
+
+
+    .section-card {
+
+        box-shadow: none;
+
+        border: 1px solid #ddd;
+    }
+
+
+    .total-card {
+
+        background-color: white;
+
+        color: black;
+
+        border: 2px solid black;
+    }
+
+}
