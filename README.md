@@ -146,21 +146,6 @@ The project can be deployed using:
 
 ---
 
-## 📸 Screenshots
-
-Add your project screenshots here:
-
-```markdown
-![Home Page](assets/screenshots/home.png)
-
-![Shopping Room](assets/screenshots/room.png)
-
-![Shared Cart](assets/screenshots/cart.png)
-
-![Receipt](assets/screenshots/receipt.png)
-```
-
----
 
 ## 🔮 Future Improvements
 
